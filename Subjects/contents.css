@@ -1,0 +1,305 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  
+}
+.NavbarItems-English1Topic1 {
+     background: linear-gradient(to bottom right, #ff4382, #ffce00); 
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2 rem;
+  }
+  .navbar-logo-English1Topic1 {
+    color: #fff;
+    justify-self: start;
+    margin-left: 15px;
+    cursor: pointer;
+  }
+  
+  .nav-menu-English1Topic1 {
+    font-size: 16px;
+    font-weight: bold;
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    /* grid-gap: 1px; */
+    list-style: none;
+    text-align: center;
+    width: 70vw;
+    justify-content: end;
+    margin-right: 1rem;
+  }
+  
+  .nav-links-English1Topic1 {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 0.5rem;
+    list-style: none;
+  }
+  
+  .nav-links-English1Topic1:hover {
+    background-color: #e63c44;
+    /* border-radius: 1px; */
+    border-radius: 20px;
+    transition: all 0.2s ease-out;
+  }
+
+
+  
+/* .NavbarItems-English1Topic1 { */
+  /* background: linear-gradient(to bottom right, #ff4382, #ffce00); */
+  /* background-color: white; */
+  /* opacity: 0.5; */
+  /* height: 80px;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2 rem;
+}
+.navbar-logo-English1Topic1 {
+  color: rgb(15, 14, 14);
+  justify-self: start;
+  margin-left: 15px;
+  cursor: pointer;
+} */
+
+/* .nav-menu-English1Topic1 {
+  font-size: 16px;
+  font-weight: bold;
+  display: grid;
+  grid-template-columns: repeat(5, auto); */
+  /* grid-gap: 1px; */
+  /* list-style: none;
+  text-align: center;
+  width: 70vw;
+  justify-content: end;
+  margin-right: 1rem;
+} */
+
+/* .nav-links-English1Topic1 {
+  color: rgb(7, 6, 6);
+  text-decoration: none;
+  padding: 0.5rem 0.5rem;
+  list-style: none;
+  border-radius: 1px ;  */
+/* }
+
+.nav-links-English1Topic1:hover {
+  background-color: #e63c44;
+  border-radius: 1px;
+  border-radius: 20px;
+  color: white;
+  transition: all 0.2s ease-out;
+} */
+ 
+.body-div-English1Topic1 {
+  box-shadow: 1px 5px crimson;
+  /* box-shadow: 1px 10px 10px #f8f52e; */
+  border-radius: 28px;
+  /* background: linear-gradient(to bottom right, #f8f52e 0%, #fff 100%); */
+    background: linear-gradient(to bottom right,#f36e6e, #f2f540 );
+  
+  /* background-color:#ff4382 ; */
+  padding-top: 14px;
+  padding-right: 30px;
+  padding-left:30px;
+  margin-top: 40px;
+ margin-bottom: 100px;
+  /* align-content: space-around; */
+  margin-left:450px;
+  /* margin-right: 50px; */
+  width:250px;
+  height:60px;
+}
+
+.body-div-English1Topic1:hover {
+  /* box-shadow: 1px 10px 10px #f8f52e; */
+  box-shadow: 1px 5px crimson;
+  /* background: linear-gradient(to bottom right, #ff4382, #ffce00); */
+  background: linear-gradient(to bottom right, #f8f52e 0%, #fff 100%);
+}
+
+.text-English1Topic1 {
+  font-size: 18px;
+  font-weight: bold;
+  color: crimson;
+margin-left:  0px;
+  /* display: grid; */
+  /* text-decoration: underline overline; */
+  /* text-align: center; */
+  /* padding-top: 15px; */
+  border-radius:20px ;
+  padding-top: 5px;
+  padding-bottom: 5px;
+   padding-left:10px ;
+   padding-right: 10px;
+/* margin-top: 70px; */
+}
+
+.text-English1Topic1:hover {
+  /* color: #000; */
+  font-size: 15px;
+  font-style: italic;
+  /* margin-left:40px; */
+  border-radius:10px;
+  color: rgb(54, 51, 51);
+  background-color: rgb(224, 204, 204);
+    
+}
+
+ 
+.button-div-English1Topic1 {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.all-divs-English1Topic1 {
+  /* display: flex; */
+  /* display: block; */
+  /* background: linear-gradient(to bottom right, #bdb4af , #4e0f4b  ); 
+  flex-direction: row;
+  opacity: 0.8;
+  /* background-color:#ccc; */
+  position: relative;
+  /* top: 0px;
+  left: 0px; */
+  margin-top: 5px;
+
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+}
+
+.all-divs-English1Topic1 .body-div-English1Topic1 {
+  /* margin-right: 1rem;
+  margin-left: 4rem; */
+  width: fit-content;
+}
+.button-English1Topic1 {
+  font: inherit;
+  padding: 0.5rem 1.5rem;
+  border: 1px solid;
+  border-radius: 20px;
+  background: #e63c44;
+  color: white;
+  cursor: pointer;
+  margin-right: 0.1rem;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.button-English1Topic1:focus {
+  outline: none;
+}
+
+.button-English1Topic1:hover {
+  background: #d7f74b;
+  border-color: #ff4382;
+}
+
+.button-English1Topic1:active {
+  background: #ffce00;
+  border-color: #ff4382;
+}
+
+.background-English1Topic1 {
+  /* opacity:0.8; */
+   background:rgb(141, 37, 37);
+  position: fixed;
+  margin-top: 180px;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  z-index: 1000;
+}
+
+.bow-English1Topic1 {
+  margin-top: 110px;
+  width: 100%;
+  height: 130px;
+}
+
+.outerDiv-English1Topic1 {
+  /* background-image: url("../../assets/studentbg.jpeg"); */
+  position: relative;
+  min-width: 100%;
+  min-height: 100%;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.1px;
+}
+.logo-English1Topic1 {
+  height: 65px;
+  border-radius: 90rem;
+  animation: example 5s linear infinite;
+}
+
+@keyframes example {
+  0% {
+    transform: perspective(100px) rotateY(0deg);
+  }
+  100% {
+    transform: perspective(100px) rotateY(360deg);
+  }
+} 
+.Video{
+ 
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+ margin-left:350px;
+padding-bottom: 30px;
+float: left; 
+ 
+
+}
+.button-download{
+   font: inherit; 
+  padding: 0.5rem 1.5rem;
+  border: 1px solid;
+  border-radius: 20px;
+  background: #e63c44;
+  color: white;
+  cursor: pointer;
+  margin-right: 0.1rem;
+  /* margin-left : 350px ; */
+  text-decoration: none;
+  display: inline-block;  
+  margin-right: 20px;
+  /* padding-Top: 50px; */
+  margin-Left:80px;
+}
+
+.button-download:focus {
+  outline: none;
+}
+
+.button-download:hover {
+  background: #d7f74b;
+  border-color: #ff4382;
+  color: violet;
+  font-weight: bolder;
+}
+
+.button-download:active {
+  background: #ffce00;
+  border-color: #ff4382;
+  color: rgb(37, 11, 37);
+  font-weight: bolder;
+}
+.background{
+  background: #f0720b;
+}
+
+.navworksheets {
+  /* font-weight: bolder; */
+  /* color: black; */
+  font-weight: bolder;
+  font: 1em sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}

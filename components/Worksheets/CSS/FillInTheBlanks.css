@@ -1,0 +1,78 @@
+#blanksDiv {
+  width: 40rem;
+  height: fit-content;
+  margin-left: 5rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  /* color: white; */
+  background: #f84b34ef;
+  /* background-image: linear-gradient(to right, #00aaff, #00ff6c); */
+  /* background-image: url("../../../assets/p1.jpg"); */
+  cursor: pointer;
+  /* text-align: center; */
+  padding: 2rem;
+  box-shadow: 1px 1px 8px rgb(95, 17, 17);
+  /* filter: blur(3px); */
+}
+
+#blanksDiv :hover {
+  font-weight: bold;
+}
+
+#blanksDiv h2 {
+  text-align: center;
+}
+
+.testWsBtn {
+  /* float: right; */
+  margin-top: 1.5rem;
+  margin-left: 5rem;
+  padding: 0.5rem 1.5rem;
+  border: 1px solid;
+  border-radius: 20px;
+  background: #e63c44;
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.testWsBtn:focus {
+  outline: none;
+}
+
+.testWsBtn:hover {
+  background: #d7f74b;
+  border-color: #ff4382;
+}
+
+.testWsBtn:active {
+  background: #ffce00;
+  border-color: #ff4382;
+}
+
+.pracWsBtn {
+  /* float: right; */
+  margin: 1.5rem;
+  margin-left: 5rem;
+  padding: 0.5rem 1.5rem;
+  border: 1px solid;
+  border-radius: 20px;
+  background: #e63c44;
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.pracWsBtn:focus {
+  outline: none;
+}
+
+.pracWsBtn:hover {
+  background: #d7f74b;
+  border-color: #ff4382;
+}
+
+.pracWsBtn:active {
+  background: #ffce00;
+  border-color: #ff4382;
+}

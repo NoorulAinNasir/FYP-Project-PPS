@@ -1,0 +1,28 @@
+.worksheetHistoryClass {
+  background: rgb(173, 226, 229);
+  color: cornsilk;
+  text-align: center;
+  padding: 5rem;
+}
+
+.WSHistory1,
+.WSHistory2 {
+  list-style-type: none;
+}
+
+#ul1 {
+  border: 1px solid red;
+  width: 15rem;
+}
+
+#ul2 {
+  border: 1px solid rgb(5, 5, 46);
+  width: 15rem;
+}
+.WSHistory1 {
+  margin-top: -3.5rem;
+}
+.WSHistory2 {
+  margin-top: -3.5rem;
+  margin-left: 15rem;
+}

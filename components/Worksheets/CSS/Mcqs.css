@@ -1,0 +1,37 @@
+#mcqsDiv {
+  width: 40rem;
+  height: fit-content;
+  margin-left: 5rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  /* color: white; */
+  background: #ffce00;
+  /* background-image: linear-gradient(to right, #00aaff, #00ff6c); */
+  /* background-image: url("../../../assets/p1.jpg"); */
+  cursor: pointer;
+  /* text-align: center; */
+  padding: 2rem;
+  box-shadow: 1px 1px 8px rgb(95, 17, 17);
+  /* filter: blur(3px); */
+}
+
+#mcqsDiv :hover {
+  font-weight: bold;
+}
+
+#mcqsDiv h2 {
+  text-align: center;
+}
+
+.mcqSaveBtn {
+  display: none;
+}
+
+.mcqSaveBtn:hover {
+  cursor: pointer;
+}
+
+#p1:hover .mcqSaveBtn {
+  display: inline;
+  margin-left: 5rem;
+}

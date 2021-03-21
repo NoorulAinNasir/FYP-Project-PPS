@@ -1,0 +1,180 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .NavbarItems-lectureNote {
+    background: linear-gradient(to bottom right, #ff4382, #ffce00);
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2 rem;
+  }
+  .navbar-logo-lectureNote {
+    color: #fff;
+    justify-self: start;
+    margin-left: 20px;
+    cursor: pointer;
+  }
+  
+  .nav-menu-lectureNote {
+    font-size: 16px;
+    font-weight: bold;
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    /* grid-gap: 1px; */
+    list-style: none;
+    text-align: center;
+    width: 70vw;
+    justify-content: end;
+    margin-right: 1rem;
+  }
+  
+  .nav-links-lectureNote {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 0.5rem;
+    list-style: none;
+  }
+  
+  .nav-links-lectureNote:hover {
+    background-color: #e63c44;
+    border-radius: 1px;
+    transition: all 0.2s ease-out;
+    border-radius: 20px;
+  }
+  
+  .body-div-lectureNote {
+    box-shadow: 1px 5px crimson;
+    border-radius: 20px;
+    background: linear-gradient(to bottom, #ffcc99 0%, #ffff66 100%);
+    padding: 50px;
+    margin-top: 150px;
+    margin-left: 50px;
+    margin-right: 40px;
+    width: 330px;
+    height: 180px;
+  }
+  
+  .text-lectureNote {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+    display: grid;
+    text-decoration: underline overline;
+    text-align: center;
+  }
+  
+  .button-div {
+    text-align: center;
+    padding-top: 40px;
+  } 
+  
+  .all-divs {
+    margin: auto;
+    width: 70%;
+    display: flex;
+    /* display: inline-block; */
+    /* background: linear-gradient(to bottom right, #fff, #f7734b   ); */
+    height: 100%;
+  }
+  .button-lectureNote {
+    font: inherit;
+    padding: 0.5rem 1.5rem;
+    border: 1px solid;
+    border-radius: 20px;
+    background: #e63c44;
+    color: white;
+    cursor: pointer;
+    margin-right: 0.1rem;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .button-lectureNote:focus {
+    outline: none;
+  }
+  
+  .button-lectureNote:hover {
+    background: #d7f74b;
+    border-color: #ff4382;
+  }
+  
+  .button-lectureNote:active {
+    background: #ffce00;
+    border-color: #ff4382;
+  }
+  .logo {
+    height: 60px;
+    border-radius: 30px;
+    animation: example 5s linear infinite;
+  }
+  .upload{
+      text-align: center;
+      font-weight: bolder;
+      font-size:40px ;
+      padding-top:80px;
+  }
+
+  .upload-box{
+      border-width: thick;
+    border-style: solid;
+    border-radius: 7px;
+      border-color: black;
+      width: 570px;
+      height:300px ;
+      margin-left: 400px; 
+    margin-top: 60px ;
+ }
+
+ .Inputchoose{
+     margin-top: 70px;
+     margin-left: 150px;
+     font-size: 18px;
+     font-weight: bolder;
+     padding: 0.5rem 0.5rem; 
+     border-radius: 1px solid;
+     
+ }
+  
+ .button-lectureNote1 {
+  font: inherit;
+  padding: 0.5rem 8rem;
+  border: 1px solid;
+  border-radius: 5px;
+  background: #3c3fe6;
+  color: white;
+  cursor: pointer;
+  /* margin-right: 0.1rem; */
+  margin-left:120px;
+  margin-top: 50px;
+  text-decoration: none;
+  display: inline-block;
+  }
+  
+  .button-lectureNote1:focus {
+    outline: none;
+  }
+  
+  .button-lectureNote1:hover {
+    background: #8fcdf6;
+    border-color: #3c3fe6;
+  }
+  
+  .button-lectureNote1:active {
+    background: #8fcdf6;
+    border-color: #3c3fe6;
+  }
+
+  @keyframes example {
+    0% {
+      transform: perspective(100px) rotateY(0deg);
+    }
+    100% {
+      transform: perspective(100px) rotateY(360deg);
+    }
+  }
+  

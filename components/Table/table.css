@@ -1,0 +1,44 @@
+/* #tableID {
+  background: purple;
+  margin-top: 5rem;
+  width: fit-content;
+} */
+
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 60%;
+  background: rgb(145, 138, 145);
+  margin-top: 10rem;
+  margin-left: 15rem;
+}
+
+table td,
+table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+table tr:hover {
+  background-color: #ddd;
+}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: grey;
+  color: white;
+}
+
+
+#deleteWSBtn:hover{
+  box-shadow: 2px 2px 20px #888888;
+  color: red;
+  
+}
